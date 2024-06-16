@@ -1,3 +1,29 @@
 .right_button{
     padding: 10px;
+    margin-top: 1.5rem;
+}
+
+.left_button{
+    padding: 10px;
+    margin-top: 1.5rem;
+}
+
+.right-side input {
+    margin-left: 1rem;
+    width: 150px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    height: 25px;
+    margin-top: 18px;
+}
+
+.left-side input {
+    margin-left: 1rem;
+    width: 150px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    height: 25px;
+    margin-top: 18px;
 }
