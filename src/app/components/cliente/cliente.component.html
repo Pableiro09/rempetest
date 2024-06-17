@@ -1,0 +1,19 @@
+<main class="main">
+    <div class="content">
+      <div class="left-side">
+        <h1>Cliente</h1>
+        <div><p>ID: {{ cliente.id }}</p></div>
+        <div><p>UUID: {{ cliente.uuid }}</p></div>
+        <div><p>Número de Colegio: {{ cliente.collegeNumber }}</p></div>
+        <div><p>Nombre: {{ cliente.name }}</p></div>
+        <div><p>Primer Apellido: {{ cliente.surname1 }}</p></div>
+        <div><p>Segundo Apellido: {{ cliente.surname2 }}</p></div>
+        <div><p>Códigos de Integración: {{ cliente.integrationCodes }}</p></div>
+        <div><p>Soporte MUFACE: {{ cliente.mufaceSupport }}</p></div>
+        <div><p>Estado: {{ cliente.status }}</p></div>
+        <div><p>Estado de Usuario: {{ cliente.userStatus }}</p></div>
+        <button class="left_button" (click)="obtenerDatosCliente()">Actualizar datos del cliente</button>
+      </div>
+    </div>
+  </main>
+  
